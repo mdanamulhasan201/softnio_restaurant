@@ -2,8 +2,8 @@
 
 const Banner = () => {
     return (
-        <div>
-            this is home banner section
+        <div className="max-w-screen-xl mx-auto">
+           this is banner
         </div>
     );
 };
