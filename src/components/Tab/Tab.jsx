@@ -120,8 +120,11 @@ const Tab = () => {
                 <Button text="About More" />
                 <div className='flex items-center gap-2'>
                     <FiPhoneCall className='text-lg text-red-600' />
-                    <p className='font-roboto text-lg font-heavy text-[#0A1425]'>+88 3426 739 485</p>
+                    <a href='tel:+883426739485' className='font-roboto text-lg font-heavy text-[#0A1425]'>
+                        +88 3426 739 485
+                    </a>
                 </div>
+
             </div>
         </div>
     );

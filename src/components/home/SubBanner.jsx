@@ -5,10 +5,11 @@ import Tab from '../Tab/Tab';
 import fstdelivery from '../../assets/img/icon/Vector.png';
 import dining from '../../assets/img/icon/Vector2.png'
 import delivery from '../../assets/img/icon/Vector3.png'
+import rightSideImg from '../../assets/img/about/rightside.png'
 
 const SubBanner = () => {
     return (
-        <div >
+        <div className='relative'>
             <div className="max-w-screen-xl py-10 xl:py-[120px] mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-center lg:items-start gap-5 lg:gap-16">
                     {/* Left Side: Image with Overlayed Content */}
@@ -33,7 +34,7 @@ const SubBanner = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row gap-8 lg:gap-10 items-start lg:items-center mt-16'>
+                <div className='flex flex-col md:flex-row gap-8 lg:gap-20 items-start lg:items-center mt-16'>
                     <div className="flex items-center gap-3">
                         {/* Image container with background color, padding, rounded corners, and shadow */}
                         <div className="bg-white p-4 rounded-full shadow-md flex items-center justify-center">
@@ -73,6 +74,11 @@ const SubBanner = () => {
 
                 </div>
             </div>
+
+            <div className='hidden 2xl:block absolute top-80 right-0 w-48'>
+                <img src={rightSideImg} alt="" />
+            </div>
+
         </div>
     );
 };
