@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import rightImg from '../../assets/img/banner/image1.png';
 import flower from '../../assets/img/banner/Vector.png'
 import Button from "../button/Button";
-// Banner Component
+
 const Banner = () => {
   return (
     <div
