@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import bg from '../../assets/img/banner/bookingBanner.jfif';
+import  { useState } from 'react';
+import bg from '../../assets/img/banner/bookingBanner.png';
 import Button from '../button/Button';
 import { toast } from 'react-hot-toast';
 
