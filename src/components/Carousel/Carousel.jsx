@@ -6,6 +6,7 @@ import img2 from '../../assets/img/popularFood/pizza.png';
 import img3 from '../../assets/img/popularFood/frenchFries.png';
 import img4 from '../../assets/img/popularFood/cusineChicken.png';
 
+
 const Carousel = () => {
     const originalData = [
         { id: 1, img: img1, title: 'Vegetables Burger', sub: "Barbecue Italian cuisine pizza", price: 10.99 },
@@ -46,7 +47,7 @@ const Carousel = () => {
                         <div className="w-3 h-3 bg-red-700"></div>
                         <p className="text-[#BD1F17] text-lg font-roboto font-heavy">Crispy, Every Bite Taste</p>
                     </div>
-                    <h1 className="text-5xl mt-5 font-bebas font-heavy">POPULAR FOOD ITEMS</h1>
+                    <h1 className="text-5xl mt-3 font-bebas font-heavy uppercase">POPULAR FOOD ITEMS</h1>
                 </div>
                 <div className="hidden md:flex gap-4">
                     {/* Previous Button */}
@@ -107,7 +108,7 @@ const Carousel = () => {
                     <RiArrowRightSLine className="text-2xl" />
                 </button>
             </div>
-
+          
         </div>
     );
 };
